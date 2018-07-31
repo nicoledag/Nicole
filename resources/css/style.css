@@ -137,7 +137,7 @@ flex-wrap: wrap;
   margin-top: 32px;
 }
 .images {
-  height: 475px;
+  height: 700px;
   width: 475px;
   padding: 16px;
 }
@@ -145,8 +145,10 @@ flex-wrap: wrap;
   width: 100%;
 }
 .item2 {
-  height: 600px;
-  width: 400px;
+  height: 500px;
+  width:325px;
+  margin: 32px 0px 0px 48px;
+
 }
 
 #portfolio h1 {
@@ -163,6 +165,10 @@ flex-wrap: wrap;
   text-align: center;
   padding-top: 16px;
   color: white;
+}
+
+.images {
+  border: solid white 1rem;
 }
 
 
