@@ -183,12 +183,12 @@ flex-wrap: wrap;
 }
 
 .left1 {
-  width: 25%;
+  width: 20%;
   margin-left: 48px;
 }
 
 .right1 {
-  width: 75%;
+  width: 80%;
   margin-top: 32px;
   margin-left: 16px;
 }
@@ -203,3 +203,5 @@ padding-left: 32px 32px 32px 32px;
   padding-right: 32px;
   margin-left: 16px;
 }
+
+/* Contact Me*/
