@@ -1,0 +1,205 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*Universal Styles*/
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+html {
+  font-size: 18px;
+  color: black;
+}
+
+
+/*Header*/
+
+header {
+ height: 4rem;
+ background-color: #342B70;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ padding: .5rem .5rem;
+}
+
+nav div {
+display: flex;
+align-items: center;
+}
+
+nav .logo {
+  height: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 0;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+
+}
+
+nav a {
+text-decoration: none;
+color: white;
+}
+
+nav a:hover {
+  color: #BC80F8;
+}
+
+/*Main*/
+
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+  margin-top: 48px;
+}
+
+.left img {
+  width: 100%;
+  padding: 32px 24px 32px 24px;
+}
+
+.text {
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.text h1 {
+  font-size: 1.3rem;
+}
+
+.row {
+  margin-top: 0px;
+  padding-right: 32px;
+}
+
+.row:hover {
+  background-color: silver;
+}
+
+.main-text {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+
+.main-text h1 {
+  color: #342B70;
+  font-weight: bold;
+  font-size: 2.1rem;
+  padding-bottom: 16px;
+}
+
+.main-text p {
+  color: black;
+  font-size: 1.3rem;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+/* Portfolio*/
+
+.flex {
+display: flex;
+flex-wrap: wrap;
+}
+
+#portfolio {
+  background-color:#342B70;
+  padding-top: 60px;
+  padding-bottom: 250px;
+  margin-top: 32px;
+}
+.images {
+  height: 475px;
+  width: 475px;
+  padding: 16px;
+}
+.item {
+  width: 100%;
+}
+.item2 {
+  height: 600px;
+  width: 400px;
+}
+
+#portfolio h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.image-text {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 16px;
+  color: white;
+}
+
+
+/*About Me*/
+
+#about {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 32px;
+  color: #342B70;
+  font-weight: bold;
+}
+
+.left1 {
+  width: 25%;
+  margin-left: 48px;
+}
+
+.right1 {
+  width: 75%;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+
+.left1 img {
+width: 100%;
+padding-left: 32px 32px 32px 32px;
+}
+
+.row1 {
+  margin-top: 0px;
+  padding-right: 32px;
+  margin-left: 16px;
+}
