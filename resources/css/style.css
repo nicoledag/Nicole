@@ -186,26 +186,6 @@ margin-top: 48px;
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 1440px) {
-
-  .images {
-    height: 700px;
-    width: 450px;
-    padding: 16px;
-    margin-left: 32px;
-    margin-top: 32px
-  }
-  .item {
-    width: 100%;
-    margin-top: 32px;
-  }
-  .item2 {
-    height: 475px;
-    width:300px;
-    margin: 32px 0px 0px 48px;
-  }
-
-}
 
 /*About Me*/
 
