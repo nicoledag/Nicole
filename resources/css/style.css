@@ -129,6 +129,7 @@ nav a:hover {
 
 .flex {
 display: flex;
+justify-content: center;
 flex-wrap: wrap;
 }
 
@@ -142,21 +143,29 @@ flex-wrap: wrap;
   height: 700px;
   width: 475px;
   padding: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 32px
 }
 .item {
   width: 100%;
+  margin-top: 32px;
 }
 .item2 {
-  height: 525px;
-  width:350px;
-  margin: 32px 0px 0px 32px;
+  height: 475px;
+  width:300px;
+  margin: 32px 0px 0px 48px;
+}
+
+.item3 {
+margin-top: 48px;
 
 }
 
 #portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 16px;
   padding-bottom: 32px;
   color: white;
   font-weight: bold;
@@ -170,9 +179,33 @@ flex-wrap: wrap;
 }
 
 .images {
-  border: solid white 1rem;
+  border: solid white .75rem;
 }
 
+.image-text p {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .images {
+    height: 700px;
+    width: 450px;
+    padding: 16px;
+    margin-left: 32px;
+    margin-top: 32px
+  }
+  .item {
+    width: 100%;
+    margin-top: 32px;
+  }
+  .item2 {
+    height: 475px;
+    width:300px;
+    margin: 32px 0px 0px 48px;
+  }
+
+}
 
 /*About Me*/
 
@@ -211,5 +244,6 @@ padding-left: 32px 32px 32px 32px;
   padding-right: 32px;
   margin-left: 16px;
 }
+
 
 /* Contact Me*/
