@@ -87,7 +87,6 @@ nav a:hover {
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-
 }
 
 .text h1 {
@@ -101,6 +100,7 @@ nav a:hover {
 
 .row:hover {
   background-color: silver;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-text {
@@ -135,7 +135,7 @@ flex-wrap: wrap;
 #portfolio {
   background-color:#342B70;
   padding-top: 16px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   margin-top: 16px;
 }
 .images {
@@ -146,6 +146,7 @@ flex-wrap: wrap;
   margin-right: 16px;
   margin-top: 32px
 }
+
 .item {
   width: 100%;
   margin-top: 32px;
@@ -165,7 +166,7 @@ margin-top: 48px;
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  color: #BC80F8;
+  color: white;
   font-weight: bold;
 }
 
@@ -181,7 +182,7 @@ margin-top: 48px;
 }
 
 .images {
-  border: solid white .50rem;
+  border: solid white .25rem;
 }
 
 .image-text p {
@@ -190,6 +191,36 @@ margin-top: 48px;
 
 .image-text span {
   font-size: .8rem;
+}
+
+
+
+
+/*Web Portfolio*/
+
+.web-portfolio {
+  background-color:silver;
+  padding-top: 16px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+}
+
+.web-portfolio h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #342B70;
+  font-weight: bold;
+}
+
+.web-portfolio h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #342B70;
+  font-weight: ;
 }
 
 /*About Me*/
@@ -203,7 +234,7 @@ margin-top: 48px;
   font-size: 2.5rem;
   text-align: center;
   padding-top: 0px;
-  padding-bottom: 32px;
+  padding-bottom: 48px;
   color: #342B70;
   font-weight: bold;
 }
@@ -215,7 +246,7 @@ margin-top: 48px;
 
 .right1 {
   width: 80%;
-  margin-top: 32px;
+  margin-top: 0px;
   margin-left: 16px;
 }
 
@@ -232,6 +263,23 @@ padding-left: 32px 32px 32px 32px;
 
 .about-text span {
   color: blue;
+}
+
+.resume {
+  background-color: #342B70;
+  width: 125px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 35px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume:hover {
+  background-color: #BC80F8;
 }
 
 

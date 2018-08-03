@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+}
+
+html {
+  font-size: 18px;
+  color: black;
+}
+
+
+header {
+
+background-color: #342B70;
+color: white;
+padding: 16px;
+}
+
+header h1 {
+  font-size: 2rem;
+  padding: 16px;
+  text-align: center;
+}
+
+header h2 {
+  padding: 4px;
+  text-align: center;
+}
+
+header h3 {
+  padding-top: 48px;
+  padding-bottom: 16px;
+
+}
