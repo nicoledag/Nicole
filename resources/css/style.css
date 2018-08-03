@@ -64,7 +64,6 @@ nav a:hover {
 
 /*Main*/
 
-
 .container {
   display: flex;
   width: 100%;
@@ -76,23 +75,23 @@ nav a:hover {
 
 .right {
   width: 40%;
-  margin-top: 48px;
+  margin-top: 60px;
 }
 
 .left img {
   width: 100%;
-  padding: 32px 24px 32px 24px;
+  padding: 48px 24px 32px 24px;
 }
 
 .text {
-  margin-left: 32px;
-  margin-bottom: 32px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   margin-right: 0px;
 
 }
 
 .text h1 {
-  font-size: 2rem;
+  font-size: 0rem;
 }
 
 .row {
@@ -135,13 +134,13 @@ flex-wrap: wrap;
 
 #portfolio {
   background-color:#342B70;
-  padding-top: 32px;
-  padding-bottom: 96px;
-  margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 80px;
+  margin-top: 16px;
 }
 .images {
-  height: 700px;
-  width: 475px;
+  height: 625px;
+  width: 400px;
   padding: 16px;
   margin-left: 16px;
   margin-right: 16px;
@@ -152,22 +151,21 @@ flex-wrap: wrap;
   margin-top: 32px;
 }
 .item2 {
-  height: 475px;
-  width:300px;
-  margin: 32px 0px 0px 48px;
+  height: 400px;
+  width:275px;
+  margin: 32px 0px 0px 32px;
 }
 
 .item3 {
 margin-top: 48px;
-
 }
 
 #portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
   padding-top: 16px;
-  padding-bottom: 32px;
-  color: white;
+  padding-bottom: 16px;
+  color: #BC80F8;
   font-weight: bold;
 }
 
@@ -178,14 +176,21 @@ margin-top: 48px;
   color: white;
 }
 
+.image-text a {
+  color: white;
+}
+
 .images {
-  border: solid white .75rem;
+  border: solid white .50rem;
 }
 
 .image-text p {
   font-size: 1rem;
 }
 
+.image-text span {
+  font-size: .8rem;
+}
 
 /*About Me*/
 
@@ -225,5 +230,25 @@ padding-left: 32px 32px 32px 32px;
   margin-left: 16px;
 }
 
+.about-text span {
+  color: blue;
+}
+
 
 /* Contact Me*/
+
+#contact {
+  margin-top: 72px;
+  padding: 32px;
+  background-color: #BC80F8;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+footer {
+  background-color: #BC80F8;
+  padding: 32px;
+  text-align: center;
+}
