@@ -172,7 +172,6 @@ margin-top: 48px;
 
 .image-text {
   font-size: 1.3rem;
-  text-align: center;
   padding-top: 16px;
   color: white;
 }
@@ -185,8 +184,12 @@ margin-top: 48px;
   border: solid white .25rem;
 }
 
+.image-text h2 {
+  text-align: center;
+}
 .image-text p {
   font-size: 1rem;
+  text-align:justify;
 }
 
 .image-text span {
@@ -221,6 +224,39 @@ margin-top: 48px;
   padding-bottom: 16px;
   color: #342B70;
   font-weight: ;
+}
+
+.images2 {
+  height: 450px;
+  width: 400px;
+  padding: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 32px
+}
+
+.images2 {
+  border: solid #342B70 .25rem;
+}
+
+.web-link {
+  background-color: #342B70;
+  width: 200px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 35px;
+  margin-left: 80px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.web-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.web-link:hover {
+  background-color: blue;
 }
 
 /*About Me*/
@@ -261,8 +297,8 @@ padding-left: 32px 32px 32px 32px;
   margin-left: 16px;
 }
 
-.about-text span {
-  color: blue;
+.about-text p {
+  text-align:justify;
 }
 
 .resume {
@@ -279,9 +315,28 @@ padding-left: 32px 32px 32px 32px;
 }
 
 .resume:hover {
-  background-color: #BC80F8;
+  background-color: blue;
 }
 
+.certificate {
+  background-color: #342B70;
+  width: 275px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 35px;
+  margin-top: 16px;
+  margin-left: 600px;
+  margin-bottom: 0px;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: white;
+}
+
+.certificate:hover {
+  background-color: blue;
+}
 
 /* Contact Me*/
 
