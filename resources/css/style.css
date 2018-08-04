@@ -75,7 +75,7 @@ nav a:hover {
 
 .right {
   width: 40%;
-  margin-top: 60px;
+  margin-top: 72px;
 }
 
 .left img {
@@ -124,6 +124,10 @@ nav a:hover {
   padding-top: 16px;
 }
 
+@media only screen and (max-width: 0px) {}
+
+
+
 /* Portfolio*/
 
 .flex {
@@ -149,16 +153,12 @@ flex-wrap: wrap;
 
 .item {
   width: 100%;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 .item2 {
-  height: 400px;
+  height: 375px;
   width:275px;
-  margin: 32px 0px 0px 32px;
-}
-
-.item3 {
-margin-top: 48px;
+  margin: 24px 0px 0px 32px;
 }
 
 #portfolio h1 {
@@ -259,6 +259,26 @@ margin-top: 48px;
   background-color: blue;
 }
 
+.certificate {
+  background-color: #342B70;
+  width: 275px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 35px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: white;
+}
+
+.certificate:hover {
+  background-color: blue;
+}
+
+
 /*About Me*/
 
 #about {
@@ -318,25 +338,7 @@ padding-left: 32px 32px 32px 32px;
   background-color: blue;
 }
 
-.certificate {
-  background-color: #342B70;
-  width: 275px;
-  text-align: center;
-  padding: 16px;
-  border-radius: 35px;
-  margin-top: 16px;
-  margin-left: 600px;
-  margin-bottom: 0px;
-}
 
-.certificate a {
-  text-decoration: none;
-  color: white;
-}
-
-.certificate:hover {
-  background-color: blue;
-}
 
 /* Contact Me*/
 
@@ -346,8 +348,17 @@ padding-left: 32px 32px 32px 32px;
   background-color: #BC80F8;
 }
 
-.contact-text {
+.contact-text p {
   text-align: center;
+}
+
+#contact h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 48px;
+  color: white;
+  font-weight: bold;
 }
 
 footer {
