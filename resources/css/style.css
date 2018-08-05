@@ -82,8 +82,8 @@ nav a:hover {
   display: none;
 }
 
-
 }
+
 
 
 /*Main*/
@@ -160,7 +160,14 @@ nav a:hover {
 
   .main-text p {
     font-size: 1rem;
+    padding-top: 8px;
   }
+
+  .main-text {
+    padding-top: 16px;
+    padding-bottom: 0px;
+  }
+
 }
 
 
@@ -173,18 +180,6 @@ nav a:hover {
 
   .main-text p {
     font-size: .75rem;
-  }
-}
-
-@media only screen and (min-width: 1445px) {
-
-
-  .main-text h1 {
-    font-size: 3rem;
-  }
-
-  .main-text p {
-    font-size: 2rem;
   }
 }
 
@@ -216,6 +211,20 @@ nav a:hover {
 
 }
 }
+
+
+@media only screen and (min-width: 1445px) {
+
+
+  .main-text h1 {
+    font-size: 3rem;
+  }
+
+  .main-text p {
+    font-size: 2rem;
+  }
+}
+
 
 /* Portfolio*/
 
@@ -287,6 +296,37 @@ flex-wrap: wrap;
 
 
 
+@media only screen and (max-width: 611px) {
+
+  #portfolio h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+  .item2 {
+    margin: 24px 0px 0px 32px;
+
+}
+}
+@media only screen and (max-width: 375px) {
+
+  .item2 {
+    margin: 24px 0px 0px 16px;
+
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+  .item2 {
+    margin: 24px 0px 0px 8px;
+
+}
+}
 
 /*Web Portfolio*/
 
@@ -371,6 +411,14 @@ flex-wrap: wrap;
 }
 
 
+@media only screen and (max-width: 611px) {
+
+  .web-portfolio h1 {
+    font-size: 2rem;
+  }
+}
+
+
 /*About Me*/
 
 #about {
@@ -448,8 +496,16 @@ width: 100%;
   padding: 0px 100px 60px 100px;
   }
 
-
 }
+
+
+@media only screen and (max-width: 611px) {
+
+  #about h1 {
+    font-size: 2rem;
+  }
+}
+
 
 /* Contact Me*/
 
@@ -461,6 +517,7 @@ width: 100%;
 
 .contact-text p {
   text-align: center;
+  padding-bottom: 16px;
 }
 
 #contact h1 {
@@ -473,7 +530,15 @@ width: 100%;
 }
 
 footer {
-  background-color: #BC80F8;
-  padding: 32px;
+  background-color: white;
+  padding-top: 32px;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 611px) {
+
+  #contact h1 {
+    font-size: 2rem;
+  }
 }
