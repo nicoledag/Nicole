@@ -292,6 +292,15 @@ flex-wrap: wrap;
   font-weight: bold;
 }
 
+#portfolio h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: white;
+  font-weight: ;
+}
+
 .image-text {
   font-size: 1.3rem;
   padding-top: 16px;
