@@ -9,12 +9,18 @@ html {
 /*Universal Styles*/
 
 body {
-  font-family: "Verdana", sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
+
 
 html {
   font-size: 18px;
   color: black;
+}
+
+p, h2, h3, span {
+ font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -37,9 +43,10 @@ align-items: center;
 }
 
 nav .logo {
-  height: 3.2rem;
+  height: 3.3rem;
   margin-left: 1.5rem;
   margin-right: 0;
+  padding-bottom: .15rem;
 }
 
 nav ul {
@@ -49,7 +56,7 @@ nav ul {
 nav li {
   display: inline;
   padding: 0 1rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 nav a {
@@ -64,12 +71,12 @@ nav a:hover {
 @media only screen and (max-width: 816px) {
 
   nav li {
-    font-size:  1rem;
+    font-size:  1.2rem;
   }
 
 }
 
-@media only screen and (max-width: 723px) {
+@media only screen and (max-width: 736px) {
 
   nav li {
     font-size:  .9rem;
@@ -159,7 +166,7 @@ nav a:hover {
 .main-text h1 {
   color: #342B70;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding-bottom: 16px;
 }
 
@@ -263,6 +270,7 @@ flex-wrap: wrap;
   padding-top: 16px;
   padding-bottom: 60px;
   margin-top: 16px;
+
 }
 .images {
   height: 600px;
@@ -289,7 +297,8 @@ flex-wrap: wrap;
   padding-top: 24px;
   padding-bottom: 24px;
   color: white;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 #portfolio h3 {
@@ -298,13 +307,12 @@ flex-wrap: wrap;
   padding-top: 24px;
   padding-bottom: 24px;
   color: white;
-  font-weight: ;
 }
 
 .image-text {
   font-size: 1.3rem;
   padding-top: 16px;
-  color: white;
+  color: black;
 }
 
 .image-text a {
@@ -384,7 +392,6 @@ flex-wrap: wrap;
   padding-top: 24px;
   padding-bottom: 24px;
   color: #342B70;
-  font-weight: ;
 }
 
 .images2 {
@@ -417,6 +424,7 @@ flex-wrap: wrap;
 .web-link a {
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
 }
 
 .web-link:hover {
@@ -436,6 +444,7 @@ flex-wrap: wrap;
 .certificate a {
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
 }
 
 .certificate:hover {
@@ -464,7 +473,9 @@ flex-wrap: wrap;
   padding-bottom: 48px;
   color: #342B70;
   font-weight: bold;
+
 }
+
 
 .left1 {
   width: 20%;
@@ -503,6 +514,7 @@ width: 100%;
 .resume a {
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
 }
 
 .resume:hover {
@@ -543,7 +555,7 @@ width: 100%;
 #contact {
   margin-top: 80px;
   padding: 32px;
-  background-color: #BC80F8;
+  background-color: ;
 }
 
 .contact-text p {
@@ -556,7 +568,7 @@ width: 100%;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 32px;
-  color: white;
+  color: #342B70;
   font-weight: bold;
 }
 
