@@ -370,14 +370,14 @@ flex-wrap: wrap;
 
 /*Web Portfolio*/
 
-.web-portfolio {
+#web-portfolio{
   background-color:silver;
   padding-top: 16px;
   padding-bottom: 60px;
   margin-top: 0px;
 }
 
-.web-portfolio h1 {
+#web-portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
   padding-top: 32px;
@@ -386,7 +386,7 @@ flex-wrap: wrap;
   font-weight: bold;
 }
 
-.web-portfolio h2 {
+#web-portfolio h2 {
   font-size: 1.2rem;
   text-align: center;
   padding-top: 0px;
@@ -395,7 +395,7 @@ flex-wrap: wrap;
 }
 
 .images2 {
-  height: 400px;
+  height: 600px;
   width: 400px;
   padding: 16px;
   margin-left: 16px;
@@ -417,8 +417,8 @@ flex-wrap: wrap;
   text-align: center;
   padding: 16px;
   border-radius: 35px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 .web-link a {
@@ -454,10 +454,11 @@ flex-wrap: wrap;
 
 @media only screen and (max-width: 611px) {
 
-  .web-portfolio h1 {
+  #web-portfolio h1 {
     font-size: 2rem;
   }
 }
+
 
 
 /*About Me*/
@@ -504,22 +505,23 @@ width: 100%;
 }
 
 .resume {
-  background-color: #342B70;
-  width: 125px;
-  text-align: center;
-  padding: 16px;
+  background-color: ;
+  width: ;
+  text-align: left;
+  padding: 0px;
   border-radius: 35px;
+  color: blue;
 }
 
 .resume a {
-  text-decoration: none;
-  color: white;
+  text-decoration: underline;
+  color: blue;
   font-size: 1.1rem;
 }
 
-.resume:hover {
-  background-color: blue;
-}
+/* .resume:hover {
+  background-color: red;
+} */
 
 @media only screen and (max-width: 696px) {
 
