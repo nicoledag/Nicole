@@ -68,51 +68,81 @@ nav a:hover {
   color: #BC80F8;
 }
 
-@media only screen and (max-width: 816px) {
+@media only screen and (max-width: 868px) {
+  nav .logo {
+    margin-right: 4rem;
+  }
 
-  nav li {
-    font-size:  1.2rem;
+  header {
+    height: 5rem;
   }
 
 }
 
-@media only screen and (max-width: 736px) {
 
-  nav li {
-    font-size:  .9rem;
+@media only screen and (max-width: 724px) {
+
+  header {
+    height: 7rem;
+  }
+
+  nav ul {
+    margin-top: 1rem;
   }
 
 }
+
 
 @media only screen and (max-width: 700px) {
-.menu li {
-  display: none;
-}
 
-}
-
-@media only screen and (max-width: 425px) {
-
-  nav .logo {
-    margin-left: 4rem;
+  header {
+   height: 8.5rem;
+  }
+  .menu li {
+    display: block;
+  }
+  nav ul {
+    margin-top: .6rem;
   }
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 619px) {
 
-  nav .logo {
-    margin-left: 3rem;
+  header {
+   height: 6rem;
+  }
+  nav li {
+    font-size: 1.2rem;
+  }
+  nav ul {
+    margin-top: .1rem;
   }
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 576px) {
 
-  nav .logo {
-    margin-left: 1.5rem;
+  header {
+   height: 7rem;
   }
 
+
+}
+
+@media only screen and (max-width: 560px) {
+
+  header {
+   height: 7.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 555px) {
+
+  header {
+   height: 8rem;
+  }
 }
 
 /*Main*/
@@ -488,7 +518,7 @@ flex-wrap: wrap;
 
 .left1 img {
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .row1 {
