@@ -97,9 +97,7 @@ nav a:hover {
 }
 
 
-@media only screen and (max-width: 699px) {
-
-
+/* @media only screen and (max-width: 699px) {
   header {
     height: 4.5rem;
   }
@@ -109,19 +107,46 @@ nav a:hover {
   }
 
   .responsive {
-    display: block;
-    background-color: #342B70;
-    text-align: left;
-    padding-bottom: 20px;
-    margin-top: -10px;
+  display: block;
+  background-color: #342B70;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
   }
 
   .responsive a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-    margin-left: 110px;
-  }
+
+  } */
+
+
+  @media only screen and (max-width: 699px) {
+
+
+    header {
+      height: 4.5rem;
+    }
+
+    nav li {
+      display: none;
+    }
+
+    .responsive {
+      display: block;
+      background-color: #342B70;
+      text-align: left;
+      padding-bottom: 20px;
+      margin-top: -10px;
+    }
+
+    .responsive a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+      margin-left: 110px;
+    }
 
   @media only screen and (max-width: 460px) {
     nav .logo {
