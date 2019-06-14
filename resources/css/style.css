@@ -257,7 +257,7 @@ nav a:hover {
 }
 
 
-/* Portfolio*/
+/* Design Portfolio*/
 
 .flex {
 display: flex;
@@ -269,7 +269,7 @@ flex-wrap: wrap;
   background-color:#342B70;
   padding-top: 16px;
   padding-bottom: 60px;
-  margin-top: 16px;
+  margin-top: 5px;
 
 }
 .images {
