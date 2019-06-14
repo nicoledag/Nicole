@@ -103,6 +103,7 @@ nav a:hover {
   header {
     height: 4.5rem;
   }
+
   nav li {
     display: none;
   }
@@ -112,8 +113,7 @@ nav a:hover {
     background-color: #342B70;
     text-align: left;
     padding-bottom: 20px;
-
-
+    margin-top: -10px;
   }
 
   .responsive a {
@@ -123,18 +123,32 @@ nav a:hover {
     margin-left: 110px;
   }
 
-  @media only screen and (max-width: 405px) {
-    .responsive a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.2rem;
-      margin-left: 110px;
+  @media only screen and (max-width: 460px) {
+    nav .logo {
+      margin-left: 1rem;
     }
 
+  }
+
+  @media only screen and (max-width: 405px) {
     nav .logo {
       height: 3rem;
     }
   }
+
+    @media only screen and (max-width: 387px) {
+
+      .responsive {
+        margin-top: -20px;
+      }
+      .responsive a {
+        font-size: 1rem;
+      }
+
+      nav .logo {
+        height: 2.8rem;
+      }
+    }
 
 }
 
