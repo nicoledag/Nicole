@@ -585,6 +585,8 @@ flex-wrap: wrap;
   background-color: red;
 } */
 
+
+
 @media only screen and (max-width: 696px) {
 
   .left1 {
@@ -601,6 +603,7 @@ flex-wrap: wrap;
   .left1 img {
   width: 100%;
   padding: 0px 100px 60px 100px;
+  box-shadow: none;
   }
 
 }
