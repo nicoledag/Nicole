@@ -166,13 +166,13 @@ nav a:hover {
 .main-text h1 {
   color: #342B70;
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: 2rem;
   padding-bottom: 16px;
 }
 
 .main-text p {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding-bottom: 16px;
   padding-top: 16px;
 }
@@ -207,9 +207,9 @@ nav a:hover {
     font-size: 1.5rem;
   }
 
-  .main-text p {
-    font-size: .75rem;
-  }
+  /* .main-text p {
+    font-size: 1rem;
+  } */
 }
 
 
@@ -321,6 +321,7 @@ flex-wrap: wrap;
 
 .images {
   border: solid white .25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .image-text h2 {
@@ -400,12 +401,11 @@ flex-wrap: wrap;
   padding: 16px;
   margin-left: 16px;
   margin-right: 16px;
-  margin-top: 32px
+  margin-top: 32px;
+  border: solid #342B70 .25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.images2 {
-  border: solid #342B70 .25rem;
-}
 
 .images2 .item {
   border: solid black .1rem;
