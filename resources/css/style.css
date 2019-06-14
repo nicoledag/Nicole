@@ -322,6 +322,7 @@ flex-wrap: wrap;
 .images {
   border: solid white .25rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: silver; */
 }
 
 .image-text h2 {
@@ -337,6 +338,13 @@ flex-wrap: wrap;
 }
 
 
+@media only screen and (max-width: 863px) {
+
+  .images {
+    box-shadow: none;
+
+  }
+}
 
 @media only screen and (max-width: 611px) {
 
@@ -431,6 +439,14 @@ flex-wrap: wrap;
   background-color: blue;
 }
 
+
+@media only screen and (max-width: 863px) {
+
+  .images2 {
+    box-shadow: none;
+
+  }
+}
 
 
 @media only screen and (max-width: 611px) {
