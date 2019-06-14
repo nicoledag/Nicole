@@ -68,6 +68,10 @@ nav a:hover {
   color: #BC80F8;
 }
 
+.responsive {
+  display: none;
+}
+
 @media only screen and (max-width: 868px) {
   nav .logo {
     margin-right: 4rem;
@@ -93,10 +97,43 @@ nav a:hover {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 699px) {
 
+
+  header {
+    height: 4.5rem;
+  }
   nav li {
     display: none;
+  }
+
+  .responsive {
+    display: block;
+    background-color: #342B70;
+    text-align: left;
+    padding-bottom: 20px;
+
+
+  }
+
+  .responsive a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 110px;
+  }
+
+  @media only screen and (max-width: 405px) {
+    .responsive a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-left: 110px;
+    }
+
+    nav .logo {
+      height: 3rem;
+    }
   }
 
 }
