@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-
 }
 
 
@@ -239,6 +238,10 @@ nav a:hover {
   font-size: 1.1rem;
   padding-bottom: 16px;
   padding-top: 16px;
+}
+
+.main-text ul li {
+  padding-bottom: 8px;
 }
 
 @media only screen and (max-width: 1112px) {
