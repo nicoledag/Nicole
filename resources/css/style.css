@@ -240,8 +240,12 @@ nav a:hover {
   padding-top: 16px;
 }
 
+.main-text ul {
+  padding-top: 6px;
+}
 .main-text ul li {
   padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 @media only screen and (max-width: 1112px) {
