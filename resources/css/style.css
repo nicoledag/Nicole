@@ -531,7 +531,12 @@ flex-wrap: wrap;
   }
 }
 
+/* Ecomm Page */
 
+.ecomm img {
+  padding: 25px;
+  /* border: solid black 1px; */
+}
 
 /*About Me*/
 
