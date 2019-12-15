@@ -580,21 +580,24 @@ flex-wrap: wrap;
 
 .about-text p {
   text-align:justify;
+  margin-top: 15px;
 }
 
-.resume {
-  background-color: ;
-  width: ;
-  text-align: left;
-  padding: 0px;
-  border-radius: 35px;
-  color: blue;
+.flex-icons {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  flex: wrap;
 }
 
-.resume a {
-  text-decoration: underline;
-  color: blue;
-  font-size: 1.1rem;
+/* .flex-icons .fontawesome {
+  display: flex;
+}*/
+
+.flex-icons .text {
+  padding-top: 20px;
 }
 
 /* .resume:hover {
