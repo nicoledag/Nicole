@@ -71,6 +71,20 @@ nav a:hover {
   display: none;
 }
 
+@media only screen and (max-width: 1065px) {
+nav li {
+  font-size: 1.2rem;
+}
+
+}
+
+@media only screen and (max-width: 942px) {
+  nav li {
+    font-size: 1.1rem;
+  }
+  
+  }
+
 @media only screen and (max-width: 868px) {
   nav .logo {
     margin-right: 4rem;
@@ -79,6 +93,8 @@ nav a:hover {
   header {
     height: 5rem;
   }
+
+  
 
 }
 
@@ -121,7 +137,7 @@ nav a:hover {
   } */
 
 
-  @media only screen and (max-width: 699px) {
+  @media only screen and (max-width: 942px) {
 
 
     header {
@@ -641,7 +657,7 @@ flex-wrap: wrap;
 #contact {
   margin-top: 80px;
   padding: 32px;
-  background-color: ;
+  /* background-color: ; */
 }
 
 .contact-text p {
