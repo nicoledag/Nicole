@@ -594,9 +594,20 @@ flex-wrap: wrap;
   margin-right: 16px;
 }
 
-.about-text p {
+.about-text, .recommend-text p {
   text-align:justify;
   margin-top: 15px;
+}
+
+.recommend-text {
+  border: 1px solid black;
+  padding: 10px;
+  padding-bottom: 20px;
+  /* margin: 10px; */
+}
+
+.recommend-text span {
+  font-style: italic;
 }
 
 .flex-icons {
