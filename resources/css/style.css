@@ -600,7 +600,7 @@ flex-wrap: wrap;
 }
 
 .recommend-text {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   padding-bottom: 20px;
   /* margin: 10px; */
@@ -666,7 +666,7 @@ flex-wrap: wrap;
 /* Contact Me*/
 
 #contact {
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 32px;
   /* background-color: ; */
 }
