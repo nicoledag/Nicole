@@ -554,7 +554,7 @@ flex-wrap: wrap;
   /* border: solid black 1px; */
 }
 
-/*About Me*/
+/*About Me & Recommendation*/
 
 #about {
   margin-top: 48px;
@@ -598,6 +598,7 @@ flex-wrap: wrap;
   text-align:justify;
   margin-top: 15px;
 }
+
 
 .recommend-text {
   /* border: 1px solid black; */
@@ -666,7 +667,13 @@ flex-wrap: wrap;
 /* Contact Me*/
 
 #contact {
-  margin-top: 40px;
+  margin-top: 30px;
+  padding: 32px;
+  /* background-color: ; */
+}
+
+#recommend {
+  margin-top: 80px;
   padding: 32px;
   /* background-color: ; */
 }
