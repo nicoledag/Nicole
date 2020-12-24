@@ -421,18 +421,21 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 425px) {
-  .item2 {
+  .item2,
+  .item3 {
     margin: 16px 0px 0px 26px;
   }
 }
 @media only screen and (max-width: 375px) {
-  .item2 {
+  .item2,
+  .item3 {
     margin: 16px 0px 0px 16px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .item2 {
+  .item2,
+  .item3 {
     margin: 16px 0px 0px 8px;
   }
 }
