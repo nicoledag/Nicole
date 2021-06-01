@@ -215,10 +215,10 @@ nav a:hover {
   padding-right: 32px;
 }
 
-.row:hover {
+/* .row:hover {
   background-color: silver;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 .main-text {
   width: 100%;
