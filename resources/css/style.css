@@ -443,7 +443,8 @@ nav a:hover {
 /*Web Portfolio*/
 
 #web-portfolio {
-  background-color: #f8f4f4;
+  /* background-color: #f8f4f4; */
+  background-color: rgb(242, 242, 242);
   padding-top: 16px;
   padding-bottom: 60px;
   margin-top: 0px;
@@ -539,7 +540,8 @@ nav a:hover {
 /*About Me & Recommendation*/
 
 #about {
-  margin-top: 48px;
+  padding-top: 48px;
+  background-color: rgb(242, 242, 242);
 }
 
 #about h1 {
