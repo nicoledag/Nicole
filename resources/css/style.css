@@ -668,12 +668,14 @@ nav a:hover {
 }
 
 footer {
-  background-color: white;
+  background-color: black;
+  color: white;
   padding-top: 32px;
   text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-top: 20px;
+
   margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 @media only screen and (max-width: 611px) {
