@@ -444,7 +444,8 @@ nav a:hover {
 
 #web-portfolio {
   /* background-color: #f8f4f4; */
-  background-color: rgb(242, 242, 242);
+  /* background-color: rgb(242, 242, 242); */
+  background-color: white;
   padding-top: 16px;
   padding-bottom: 60px;
   margin-top: 0px;
@@ -541,7 +542,8 @@ nav a:hover {
 
 #about {
   padding-top: 48px;
-  background-color: rgb(242, 242, 242);
+  /* background-color: rgb(242, 242, 242); */
+  background-color: white;
 }
 
 #about h1 {
