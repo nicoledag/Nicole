@@ -466,6 +466,7 @@ nav a:hover {
   .mobile-image img {
     width: 100%;
     box-shadow: none;
+    margin: 20px;
   }
 
   .web-text p {
