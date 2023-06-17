@@ -465,7 +465,10 @@ nav a:hover {
 
   .mobile-image img {
     width: 100%;
-    margin: 50;
+  }
+
+  .web-text p {
+    margin: 20px;
   }
 }
 
