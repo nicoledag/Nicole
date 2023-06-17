@@ -463,9 +463,13 @@ nav a:hover {
     /* justify-content: center; */
   }
 
+  .mobile-image {
+    margin: 20px;
+  }
+
   .mobile-image img {
     width: 100%;
-    /* margin: 10px; */
+    margin: 0;
     box-shadow: none;
   }
 
