@@ -450,7 +450,7 @@ nav a:hover {
 }
 
 .mobile-image img {
-  width: 300px;
+  width: 350px;
   margin: 20px;
   height: auto;
   border: 0.25rem solid black;
@@ -460,6 +460,7 @@ nav a:hover {
 @media only screen and (max-width: 844px) {
   .mobile-container {
     flex-direction: column;
+    justify-content: center;
   }
 
   .mobile-image {
