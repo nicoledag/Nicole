@@ -440,6 +440,23 @@ nav a:hover {
   }
 }
 
+/* Mobile Portfolio*/
+
+.mobile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mobile-image img {
+  width: 300px;
+  margin: 20px;
+  height: auto;
+  border: 0.25rem solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /*Web Portfolio*/
 
 #web-portfolio {
@@ -507,6 +524,10 @@ nav a:hover {
 
 .web-text {
   margin-top: 18px;
+}
+
+.web-text p {
+  text-align: center;
 }
 
 .web-link a {
