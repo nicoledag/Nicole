@@ -460,10 +460,10 @@ nav a:hover {
 @media only screen and (max-width: 844px) {
   .mobile-container {
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
-  .mobile-image {
+  .mobile-image img {
     width: 100%;
     /* margin: 10px; */
     box-shadow: none;
