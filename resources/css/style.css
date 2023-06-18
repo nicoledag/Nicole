@@ -457,24 +457,33 @@ nav a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.mobile-about {
+.mobile-background {
   background-color: rgb(8, 45, 126);
   color: white;
+  padding: 32px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.mobile-about {
   padding-bottom: 32px;
 }
 
 .mobile-text p {
   text-align: justify;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-bottom: 15px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
-.mobile-header {
+#mobile-portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: rgb(8, 45, 126);
+  margin-top: 32px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 844px) {
@@ -493,9 +502,14 @@ nav a:hover {
     box-shadow: none;
   }
 
+  .mobile-background {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .mobile-text p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
