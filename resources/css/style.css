@@ -457,6 +457,26 @@ nav a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.mobile-about {
+  background-color: rgb(8, 45, 126);
+  color: white;
+  padding-bottom: 32px;
+}
+
+.mobile-text p {
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mobile-header {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 @media only screen and (max-width: 844px) {
   .mobile-container {
     flex-direction: column;
@@ -473,7 +493,7 @@ nav a:hover {
     box-shadow: none;
   }
 
-  .web-text p {
+  .mobile-text p {
     margin-left: 20px;
     margin-right: 20px;
   }
