@@ -486,6 +486,21 @@ nav a:hover {
   font-weight: bold;
 }
 
+.mobile-babypics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mobile-baby img {
+  width: 200px;
+  margin: 20px;
+  height: auto;
+  border: 0.1rem solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media only screen and (max-width: 844px) {
   .mobile-container {
     flex-direction: column;
@@ -510,6 +525,10 @@ nav a:hover {
   .mobile-text p {
     /* margin-left: 8px;
     margin-right: 16px; */
+  }
+
+  .mobile-baby img {
+    width: 150px;
   }
 }
 
