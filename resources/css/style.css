@@ -474,6 +474,7 @@ nav a:hover {
   margin-bottom: 15px;
   /* margin-left: 100px;
   margin-right: 100px; */
+  line-height: 1.2;
 }
 
 #mobile-portfolio h1 {
@@ -678,6 +679,7 @@ nav a:hover {
 .recommend-text p {
   text-align: justify;
   margin-top: 15px;
+  line-height: 1.2;
 }
 
 .recommend-text {
