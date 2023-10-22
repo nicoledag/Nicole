@@ -467,6 +467,16 @@ nav a:hover {
   margin-bottom: 16px;
 }
 
+.mobile-background2 {
+  background-color: white;
+
+  padding: 32px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
 .mobile-about {
   padding-bottom: 32px;
 }
@@ -502,6 +512,10 @@ nav a:hover {
   height: auto;
   border: 0.1rem solid white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.privacy p {
+  margin: 20px;
 }
 
 @media only screen and (max-width: 844px) {
