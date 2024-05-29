@@ -488,14 +488,20 @@ nav a:hover {
   margin-right: 100px; */
   line-height: 1.2;
 }
+.advertiseContainer {
+  background-color: #fdd701;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .advertise {
   margin-top: 20px;
   font-size: 20px;
+  text-align: center;
 }
 
 .advertise a {
-  color: white;
+  color: black;
 }
 .advertiseQR img {
   height: 200px;
