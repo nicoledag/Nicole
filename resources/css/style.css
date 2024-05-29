@@ -489,6 +489,19 @@ nav a:hover {
   line-height: 1.2;
 }
 
+.advertise {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.advertise a {
+  color: white;
+}
+.advertiseQR img {
+  height: 200px;
+  width: 200px;
+}
+
 #mobile-portfolio h1 {
   font-size: 2.5rem;
   text-align: center;
