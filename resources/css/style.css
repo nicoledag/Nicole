@@ -502,10 +502,15 @@ nav a:hover {
 
 .advertise a {
   color: black;
+  font-size: 30px;
 }
 .advertiseQR img {
   height: 200px;
   width: 200px;
+}
+
+.advertise .mobile-baby img {
+  margin-top: 32px;
 }
 
 #mobile-portfolio h1 {
