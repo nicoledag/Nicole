@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicole Dagenica | Full Stack Engineer & Product Manager</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f9fafb;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #1a1a1a;
+        padding: 1rem;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      nav a:hover {
+        color: #00bcd4;
+      }
+      .hero {
+        background: linear-gradient(to right, #e0f7fa, #ffffff);
+        padding: 2rem 1rem;
+        text-align: center;
+        animation: fadeIn 1.5s ease-in;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .hero img {
+        max-width: 250px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+      .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      .hero h2 {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+      .section {
+        padding: 2rem 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+      .card {
+        background: #fff;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+      .card h3 {
+        color: #0077cc;
+        margin-bottom: 0.75rem;
+      }
+      .card ul {
+        list-style: disc inside;
+      }
+      footer {
+        background: #eaeaea;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.85rem;
+        margin-top: 2rem;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @media (min-width: 768px) {
+        .section {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="web.html">Web</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Nicole Dagenica</h1>
+      <h2>Director of Operations | Technical Product Manager</h2>
+      <p>
+        Proven leader with 10+ years of experience in digital operations,
+        technical project management, and full-stack software development.
+        Specializes in CMS systems, AWS cloud migration, and Agile team
+        leadership. Passionate about building scalable platforms and enhancing
+        user experiences.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h3>Core Skills</h3>
+        <ul>
+          <li>Agile, Jira, Confluence</li>
+          <li>Team Leadership & Cross-Functional Collaboration</li>
+          <li>AWS Cloud, Drupal CMS</li>
+          <li>React, Redux, Ruby on Rails, Javascript</li>
+          <li>HTML/CSS, Photoshop</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Professional Experience</h3>
+        <ul>
+          <li>Director of Operations, Tyler Technologies</li>
+          <li>Led 100+ gov apps, 90+ live Drupal sites</li>
+          <li>Enterprise CMS migration for 80+ agencies</li>
+          <li>Product & Project Manager, Macy's Inc.</li>
+          <li>Account Executive, Royal Chain Group</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Education & Certifications</h3>
+        <ul>
+          <li>Cornell — Product Management for Engineers (2020)</li>
+          <li>Flatiron — Full Stack Software Engineering (2019)</li>
+          <li>SUNY — Digital Art & Design, Codecademy (2018)</li>
+          <li>JWU — B.S. Marketing & A.S. Computer Applications</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Selected Projects</h3>
+        <ul>
+          <li>
+            <a
+              href="https://nicoledag.github.io/Nicole/projectDashboard.html"
+              target="_blank"
+              >📂 Project Dashboard</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/nicoledag/rails-js-project-manager"
+              target="_blank"
+              >GitHub Repo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://nicoledag.github.io/Nicole/ecomm.html"
+              target="_blank"
+              >🛍 E-Commerce App</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/nicoledag/react-ecommerce-frontend"
+              target="_blank"
+              >Frontend Repo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/nicoledag/rails-ecommerce-backend"
+              target="_blank"
+              >Backend Repo</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>&copy; 2025 Nicole Dagenica. All rights reserved.</footer>
+
+    <section class="section">
+      <div class="card">
+        <h3>About Me</h3>
+        <p>
+          I'm Nicole Dagenica, a technical product leader and full stack
+          software engineer with over a decade of experience in digital
+          operations, agile project management, and enterprise software
+          delivery. I currently serve as Director of Operations at Tyler
+          Technologies, where I oversee more than 100 government applications
+          and lead a cross-functional team managing a Drupal CMS with 90+ live
+          websites.
+        </p>
+        <br />
+        <p>
+          My professional roots stem from the private sector where I worked in
+          product development and project management roles at Macy's Inc. and
+          Royal Chain Group. These roles shaped my passion for delivering value
+          at scale, leading cross-functional initiatives, and championing
+          user-centric design.
+        </p>
+        <br />
+        <p>
+          I’m constantly learning, having earned certificates from Cornell in
+          Product Management, Flatiron in Full Stack Engineering, and SUNY in
+          Digital Art. I love building meaningful products and empowering others
+          to succeed.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

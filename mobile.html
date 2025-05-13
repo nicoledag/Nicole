@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Mobile App Portfolio | Nicole Dagenica</title>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+    <!-- Modern, clean font: Inter with fallback to system fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500"
+      href="https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/69582b3ced.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -17,12 +22,15 @@
         <div>
           <img class="logo" src="./resources/images/logo_new.jpg" alt="Logo" />
         </div>
-
         <div class="menu">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="web.html">Web App Portfolio</a></li>
-            <li><a href="mobile.html">Mobile App Portfolio</a></li>
+            <li>
+              <a href="mobile.html" class="active" aria-current="page"
+                >Mobile App Portfolio</a
+              >
+            </li>
             <li><a href="design.html">Design Portfolio</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
@@ -34,267 +42,263 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="web.html">Web App Portfolio</a></li>
-        <li><a href="mobile.html">Mobile App Portfolio</a></li>
+        <li>
+          <a href="mobile.html" class="active" aria-current="page"
+            >Mobile App Portfolio</a
+          >
+        </li>
         <li><a href="design.html">Design Portfolio</a></li>
         <li><a href="about.html">About</a></li>
-        <!-- <li><a href="contact.html">Contact</a></li> -->
       </ul>
     </div>
-    <div class="advertiseContainer">
-      <div class="advertise">
-        <a
-          href="https://apps.apple.com/us/app/sleepy-star-sleep-tracker/id6449979253"
-          target="_blank"
-          >Download on the Apple Store today!</a
-        >
-<br>
-<br>
-<br>
-        <a
-          href="https://play.google.com/store/apps/details?id=com.nicoledag.SleepyStar&pcampaignid=web_share"
-          target="_blank"
-          >Download on the Google Play Store today!</a
-        >
 
-        <div class="mobile-baby">
-          <!-- <a
-            href="https://apps.apple.com/us/app/sleepy-star-sleep-tracker/id6449979253"
-            target="_blank"
-          > -->
+    <main>
+      <section class="advertiseContainer">
+        <h2 class="advertise-heading">Download Sleepy Star</h2>
+        <div class="advertise">
+          <div>
+            <a
+              href="https://apps.apple.com/us/app/sleepy-star-sleep-tracker/id6449979253"
+              target="_blank"
+              class="download-btn"
+              aria-label="Download Sleepy Star on the Apple App Store"
+            >
+              <i class="fab fa-apple"></i> App Store
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.nicoledag.SleepyStar&pcampaignid=web_share"
+              target="_blank"
+              class="download-btn"
+              aria-label="Download Sleepy Star on Google Play"
+            >
+              <i class="fab fa-google-play"></i> Google Play
+            </a>
+          </div>
+          <div class="mobile-baby">
             <img
               src="./resources/images/mobileApp/icon2.png"
-              alt="Sleep Star Mobile App"
+              alt="Sleep Star Mobile App Icon"
+              class="app-icon"
             />
-          </a>
+          </div>
         </div>
-      </div>
+        <div class="advertise">
+          <a
+            href="./resources/files/Example Baby Sleep Schedules.pdf"
+            target="_blank"
+            aria-label="Free PDF Download - Estimated Sleep Times by Age and Sample Sleep Schedules"
+            >Free PDF: Sleep Times & Schedules</a
+          >
+        </div>
+        <div class="advertise">
+          <a
+            href="https://www.facebook.com/profile.php?id=61559505857633"
+            target="_blank"
+            aria-label="Sleepy Star on Facebook"
+            >Facebook</a
+          >
+          <a
+            href="https://www.instagram.com/sleepystartracker/"
+            target="_blank"
+            aria-label="Sleepy Star on Instagram"
+            >Instagram</a
+          >
+        </div>
+      </section>
 
-      <div class="advertise">
+      <section id="mobile-portfolio">
+        <div class="privacy">
+          <p>
+            <a href="policy.html">Privacy Policy</a>
+          </p>
+        </div>
+        <div class="privacy">
+          <p>
+            Contact
+            <a href="mailto:sleepystartracker@gmail.com"
+              >sleepystartracker@gmail.com</a
+            >
+            for questions and to request that a user account and associated data
+            be deleted.
+          </p>
+        </div>
+        <div class="mobile-background">
+          <div class="mobile-about">
+            <h1>Sleepy Star</h1>
+            <div class="mobile-text">
+              <p>
+                The Sleepy Star Baby's sleep tracker is a digital application
+                which provides parents tools needed to track and monitor their
+                baby's sleep schedule.
+              </p>
+            </div>
+            <div class="mobile-text">
+              <p>
+                By tracking their baby's sleep, parents ensure their babies are
+                getting enough sleep which will ultimately help them sleep
+                through the night. Getting a good night's sleep is essential to
+                your child's growth and development and it is also essential for
+                you.
+              </p>
+            </div>
+            <div class="mobile-text">
+              <p>
+                Created by Nicole Dagenica, the Sleepy Star App focuses solely
+                on sleep. Sleepy Star started eleven years ago when Nicole’s
+                first child, Julie, was born. Nicole found sleep deprivation,
+                like most parents, very difficult. She became knowledgeable
+                about babies' sleep and created a sleep chart to keep track of
+                her children’s sleep.
+              </p>
+            </div>
+            <div class="mobile-text">
+              <p>
+                Nicole had the idea to turn the sleep chart, now Sleepy Star,
+                into a mobile application and learned software development to
+                build it. It is Nicole's goal to help families be the best that
+                they can be every day. It starts with a good night's sleep!
+              </p>
+            </div>
+
+            <div class="mobile-babypics">
+              <div class="mobile-baby">
+                <img
+                  src="./resources/images/mobileApp/P1060342.jpg"
+                  alt="Baby sleeping with Sleep Star App"
+                />
+              </div>
+              <div class="mobile-baby">
+                <img
+                  src="./resources/images/mobileApp/IMG_3158.jpg"
+                  alt="Sleep Star App in use"
+                />
+              </div>
+              <div class="mobile-baby">
+                <img
+                  src="./resources/images/mobileApp/IMG_9068.jpg"
+                  alt="Sleep Star App screenshot"
+                />
+              </div>
+              <div class="mobile-baby">
+                <img
+                  src="./resources/images/mobileApp/IMG_3767.jpg"
+                  alt="Sleep Star App screenshot"
+                />
+              </div>
+            </div>
+
+            <div class="mobile-text">
+              <p>&copy; 2024 SLEEPY STAR</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-container">
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/IMG_0281.PNG"
+            alt="Sleep Star Mobile App Screenshot 1"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/IMG_0282.PNG"
+            alt="Sleep Star Mobile App Screenshot 2"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/IMG_0283.PNG"
+            alt="Sleep Star Mobile App Screenshot 3"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/IMG_0284.PNG"
+            alt="Sleep Star Mobile App Screenshot 4"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS0.JPG"
+            alt="Sleep Star Mobile App Screenshot 5"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS1.JPG"
+            alt="Sleep Star Mobile App Screenshot 6"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS2.JPG"
+            alt="Sleep Star Mobile App Screenshot 7"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS3.JPG"
+            alt="Sleep Star Mobile App Screenshot 8"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS4.JPG"
+            alt="Sleep Star Mobile App Screenshot 9"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS5.JPG"
+            alt="Sleep Star Mobile App Screenshot 10"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS6.JPG"
+            alt="Sleep Star Mobile App Screenshot 11"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS7.JPG"
+            alt="Sleep Star Mobile App Screenshot 12"
+          />
+        </div>
+        <div class="mobile-image">
+          <img
+            src="./resources/images/mobileApp/SS8.JPG"
+            alt="Sleep Star Mobile App Screenshot 13"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>
+        &copy; 2024 Sleepy Star. Proudly created by Nicole Dagenica.
+      </span>
+      <div>
         <a
-          href="./resources/files/Example Baby Sleep Schedules.pdf"
-          target="_blank"
-          >*** Free PDF Download - Estimated Sleep Times by Age and Sample Sleep
-          Schedules</a
-        >
-      
-        <!-- <embed
-        src="./resources/files/Example Baby Sleep Schedules.pdf"
-        type="application/pdf"
-      /> -->
-      </div>
-
-
-      <div class="advertise">
+          href="mailto:sleepystartracker@gmail.com"
+          aria-label="Email Sleepy Star"
+          ><i class="fas fa-envelope"></i
+        ></a>
         <a
           href="https://www.facebook.com/profile.php?id=61559505857633"
           target="_blank"
-          >Check us out on Facebook</a
-        >
-
-   
-      
+          aria-label="Facebook"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/sleepystartracker/"
+          target="_blank"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
       </div>
-
-      <div class="advertise">
-
-
-      <a
-      href="https://www.instagram.com/sleepystartracker/"
-      target="_blank"
-      >Check us out on Instagram</a
-    >
-
-      </div>
-    </div>
-
-    <div id="mobile-portfolio">
-      <div class="privacy">
-        <p>
-          <a href="policy.html">Privacy Policy</a>
-        </p>
-      </div>
-      <div class="privacy">
-        <p>
-          Contact sleepystartracker@gmail.com for questions and to request that
-          a user account and associated data be deleted.
-        </p>
-      </div>
-      <div class="mobile-background">
-        <div class="mobile-about">
-          <h1>Sleepy Star</h1>
-
-          <!-- <div class="mobile-babypics">
-            <div class="mobile-baby">
-              <h2>Download on the Apple Store Today!</h2>
-              <img
-                src="./resources/images/sleepyStar/qrcode_apps.apple.com.png"
-                alt="QR Code to apple store"
-              />
-            </div>
-          </div> -->
-          <div class="mobile-text">
-            <p>
-              The Sleepy Star Baby's sleep tracker is a digital application
-              which provides parents tools needed to track and monitor their
-              baby's sleep schedule.
-            </p>
-          </div>
-          <div class="mobile-text">
-            <p>
-              By tracking their baby's sleep, parents ensure their babies are
-              getting enough sleep which will ultimately help them sleep through
-              the night. Getting a good nights sleep is essential to your
-              child's growth and development and it is also essential for you.
-            </p>
-          </div>
-          <div class="mobile-text">
-            <p>
-              Created by Nicole Dagnenica, the Sleepy Star App focuses solely on
-              sleep. Sleepy Star started eleven years ago when Nicole’s first
-              child, Julie, was born. Nicole found sleep deprivation, like most
-              parents, very difficult. She became knowledgeable about babies
-              sleep and created a sleep chart to keep track of her children’s
-              sleep.
-            </p>
-          </div>
-          <div class="mobile-text">
-            <p>
-              Nicole had the idea to turn the sleep chart, now Sleepy Star, into
-              a mobile application and learned software development to build it.
-              It is Nicole's goal to help families be the best that they can be
-              every day. It starts with a good nights sleep!
-            </p>
-          </div>
-
-          <div class="mobile-babypics">
-            <div class="mobile-baby">
-              <img
-                src="./resources/images/mobileApp/P1060342.jpg"
-                alt="Sleep Star Mobile App"
-              />
-            </div>
-            <div class="mobile-baby">
-              <img
-                src="./resources/images/mobileApp/IMG_3158.jpg"
-                alt="Sleep Star Mobile App"
-              />
-            </div>
-            <div class="mobile-baby">
-              <img
-                src="./resources/images/mobileApp/IMG_9068.jpg"
-                alt="Sleep Star Mobile App"
-              />
-            </div>
-            <div class="mobile-baby">
-              <img
-                src="./resources/images/mobileApp/IMG_3767.jpg"
-                alt="Sleep Star Mobile App"
-              />
-            </div>
-          </div>
-
-          <div class="mobile-text">
-            <p>Copyright 2024 SLEEPY STAR</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mobile-container">
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/IMG_0281.PNG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/IMG_0282.PNG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/IMG_0283.PNG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/IMG_0284.PNG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS0.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS1.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS2.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS3.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS4.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS5.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS6.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS7.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-
-      <div class="mobile-image">
-        <img
-          src="./resources/images/mobileApp/SS8.JPG"
-          alt="Sleep Star Mobile App"
-        />
-      </div>
-    </div>
-
-    <footer>
-      <span
-        >&copy2018 All Rights Reserved. Proudly created by Nicole
-        DAgnenica.</span
-      >
     </footer>
   </body>
 </html>
