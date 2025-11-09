@@ -66,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #cccccc;
+  color: #bc80f8;
 }
 
 .responsive {
@@ -164,6 +164,10 @@ nav a:hover {
     text-decoration: none;
     font-size: 1.5rem;
     margin-left: 110px;
+  }
+
+  .responsive a:hover {
+    color: #bc80f8;
   }
 
   @media only screen and (max-width: 460px) {
