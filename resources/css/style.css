@@ -29,7 +29,7 @@ span {
 
 header {
   height: 4.1rem;
-  background-color: #342b70;
+  background-color: black;
 }
 
 nav {
@@ -839,8 +839,8 @@ footer {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #333333;
   padding: 3rem 1rem;
   min-height: 50vh;
   display: flex;
@@ -876,7 +876,6 @@ footer {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-text h2 {
