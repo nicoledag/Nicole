@@ -166,7 +166,24 @@ nav a:hover {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-    margin-left: 110px;
+    margin-left: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .hamburger-menu {
+    display: none;
+    float: right;
+    font-size: 2rem;
+    padding: 14px 16px;
+    color: white;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 600px) {
+    .hamburger-menu {
+      display: block;
+    }
   }
 
   .responsive a:hover {
@@ -581,11 +598,6 @@ nav a:hover {
   .mobile-background {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .mobile-text p {
-    /* margin-left: 8px;
-    margin-right: 16px; */
   }
 
   .mobile-baby img {
